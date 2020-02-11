@@ -35,4 +35,5 @@ print(len(x))
 
 # Print all the values in x multiplied by 1000
 # YOUR CODE HERE
-print(list(map(lambda z: z*1000, x)))
+for valu in x:
+    print(valu * 1000)

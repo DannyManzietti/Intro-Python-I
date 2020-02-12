@@ -20,8 +20,8 @@ print(f1(5, 6))
 # YOUR CODE HERE
 
 
-def f2(*nums):
-    return sum(nums)
+def f2(*argv):
+    return sum(argv)
 
 
 print(f2(1))                    # Should print 1
@@ -63,8 +63,8 @@ print(f3(8))     # Should print 9
 
 # YOUR CODE HERE
 def f4(**args):
-    for field in args:
-        print(f"key: {field}, value:{args[field]}")
+    for key in args:
+        print(f"key: {key}, value:{args[key]}")
 
 
 # Should print
